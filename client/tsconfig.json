@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "es6",
+        "lib": ["dom", "es2017", "es2018.promise"],
+        "jsx": "react-jsx",
+        "skipLibCheck": true,
+        "sourceMap": true,
+        "strict": false,
+        "noImplicitAny": false,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "alwaysStrict": true,
+        "moduleResolution": "node",
+        "noEmitHelpers": true,
+        "importHelpers": true,
+        "sourceRoot": ".",
+        "baseUrl": ".",
+        "experimentalDecorators": true,
+        "rootDir": ".",
+        "types": ["react", "node"]
+    },
+    "include": ["."],
+    "exclude": ["./.cache-loader", "./node_modules"]
+}

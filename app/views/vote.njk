@@ -1,0 +1,12 @@
+{% extends 'base.njk' %}
+{% block pageCss %}
+  {{ css('vote') | safe }}
+{% endblock %}
+
+{% block pageContainer %}
+  <div id="root"></div>
+{% endblock %}
+
+{% block pageJs %}
+  {{ js('vote') | safe }}
+{% endblock %}
